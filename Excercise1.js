@@ -12,4 +12,4 @@ function solution(arr) {
   const arr = [1, 2, 2, 4];
   const result = solution(arr);
   console.log(result);  // [1, 0]
-    
+    //asdas

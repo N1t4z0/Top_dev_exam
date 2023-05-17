@@ -18,4 +18,4 @@ function solution(a, b, k) {
   const k = 31;
   const result = solution(a, b, k);
   console.log(result);  // 2
-    
+    //asdas

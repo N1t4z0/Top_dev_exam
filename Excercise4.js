@@ -44,5 +44,5 @@ function solution(s) {
   console.log(solution("lopipol"));  // Salida: "lopipol"
   console.log(solution("ccgagcc"));  // Salida: "ccgagcc"
   
-
+//asadada
   //este no paso todo :(
