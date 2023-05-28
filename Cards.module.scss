@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width:80rem;
+    margin: 0 auto;
+    justify-content: space-between;
+
+  }
+
+ 
+
+  .icon li:before {
+    content: "";
+    display: inline-block;
+    background-image: url(' /public/icons/prueba.png'); /* Reemplaza 'ruta-de-la-imagen.png' con la ruta y nombre de tu imagen de icono */
+    background-size: 16px 16px; /* Ajusta el tamaño del icono */
+    width: 20px; /* Ajusta el ancho del icono */
+    height: 20px; /* Ajusta la altura del icono */
+    margin-right: 5px; /* Ajusta el espacio entre el icono y el texto del <li> */
+  }
+
+  .li {
+    list-style-type: none;
+    margin-top: 0%;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 7%;
+  }
+  
+  
+  .icon1{
+    width: 4rem;
+    height:4rem;
+    background-image: url('/src/assets/Frame 346.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title{
+   display: flex;
+   margin-left: 130%;
+   font-family: 'Inter';
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 28px;
+   color: #060619;
+   inline-size: 150px; 
+   overflow: hidden;
+  }
+
+  .card {
+    background-color: white;
+    padding: 2rem;
+    border: 0;
+    width: calc(26% - 3rem); /* Ancho de cada card (50% para mostrar 2 cards por columna) */
+    margin-bottom: 6rem;
+    margin-left: 4rem;
+  }
+  
+  @media (max-width: 740px) {
+    .card {
+        background-color: white;
+        padding: 2rem;
+        border: 0;
+        width: calc(43% - 3rem);
+        margin-bottom: 6rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: 500;
+    }
+  }
+
+  @media (max-width: 340px) {
+    .card {
+      background-color: white;
+    padding: 2rem;
+    border: 0;
+    width: calc(100% - 3rem);
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 12px;
+
+    .icon {
+          /* align-items: center; */
+    display: inline;
+    /* position: relative; */
+    /* top: 76px; */
+
+    }
+  }
+    
+  }
+  
